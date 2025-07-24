@@ -1,0 +1,138 @@
+.hero-section {
+    background-color: #f2f0f1; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(7, 7, 7);
+    display: flex;
+    align-items: center;
+  }
+  .hero-content {
+    max-width: 600px;
+    margin-left: 50px;
+  }
+  .display-4 {
+    font-weight: bolder;
+  }
+  .custom-btn {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+  }
+  .stats {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .number {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .stat-item p {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .navbar {
+    background-color: black;
+  }
+  
+  .navbar a {
+    color: white !important;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-link {
+    padding: 0 15px;
+    text-align: center;
+  }
+  .new-arrivals h2 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .stars {
+    color: gold;
+    font-size: 20px;
+  }
+  .top-selling h2 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .stars {
+    color: gold;
+    font-size: 20px;
+  }
+  
+  .categories-section h2 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .category-card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+    cursor: pointer;
+    border: 1px solid black; /* 🖤 ye line add karo */
+  }
+  
+  
+  .category-card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+    cursor: pointer;
+    border: 1px solid black; /* Tumhari black outline */
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .category-card h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  
